@@ -42,5 +42,7 @@ public class Params
 $response = Invoke-RestMethod -Uri "https://api.unsplash.com/photos/random/?client_id=qEu5nx4ETtDueAZKUFZnhU9TgWi2Sbbrz8bGEgEmcwY&orientation=landscape"
 $response.urls
 
-Invoke-WebRequest -Uri $response.urls.full -OutFile C:\Users\harsu\Downloads\wallOChangeDir\test.jpg -UseBasicParsing
-Set-WallPaper("C:\Users\harsu\Downloads\wallOChangeDir\test.jpg")
+Invoke-WebRequest -Uri $response.urls.full -OutFile C:\Users\harshu\Downloads\wallOChangeDir\test.jpg -UseBasicParsing
+Set-WallPaper("C:\Users\harshu\Downloads\wallOChangeDir\test.jpg")
+
+exit
